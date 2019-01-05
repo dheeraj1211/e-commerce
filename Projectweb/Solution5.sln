@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7321B0AC-5E68-46B1-A10A-3FAEAE61F5D0}"
+	ProjectSection(SolutionItems) = preProject
+		..\Solution1\app.sln = ..\Solution1\app.sln
+		..\Solution1\apps.html.html = ..\Solution1\apps.html.html
+		button.js = button.js
+		cust.js = cust.js
+		customer.html = customer.html
+		..\Solution1\datasearch.html.html = ..\Solution1\datasearch.html.html
+		hide.html = hide.html
+		hide1.js = hide1.js
+		hide3.css = hide3.css
+		..\Solution1\HTMLPage1.html = ..\Solution1\HTMLPage1.html
+		..\Solution1\HTMLPage2.html = ..\Solution1\HTMLPage2.html
+		..\Solution1\HTMLPage3.html = ..\Solution1\HTMLPage3.html
+		..\Solution1\HTMLPage4.html = ..\Solution1\HTMLPage4.html
+		HTMLPage5.html = HTMLPage5.html
+		person.html = person.html
+		..\Solution1\Script1.js = ..\Solution1\Script1.js
+		..\Solution1\Script2.js = ..\Solution1\Script2.js
+		..\Solution1\Script3.js = ..\Solution1\Script3.js
+		scroll.html = scroll.html
+		scrollstyle.css = scrollstyle.css
+		server.js = server.js
+		..\Solution1\Solution1.sln = ..\Solution1\Solution1.sln
+		..\Solution1\StyleSheet1.css = ..\Solution1\StyleSheet1.css
+		StyleSheet1.css = StyleSheet1.css
+		Styling.css = Styling.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EE7BD2F-BDC7-4EFB-ADD0-392D521D1011}
+	EndGlobalSection
+EndGlobal

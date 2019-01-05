@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+	<script src="cust.js"></script>
+	<link rel="stylesheet" type="text/css" href="StyleSheet1.css">
+	<a href="HTMLPage5.html">Home</a>
+
+	<h1>Two way binding of customer detail</h1>
+
+</head>
+<body ng-app="mymodule">
+<div ng-controller="mycontroller"> 
+<table>
+<tr>
+<td>firstname</td>
+<td><input type="text" ng-model="employee.firstname"</td>
+</tr>
+<tr>
+<td>lastname</td>
+<td><input type="text" ng-model="employee.lastname"</td>
+</tr>
+<tr>
+<td>occupation</td>
+<td><input type="text" ng-model="employee.occupation"</td>
+</tr>
+<tr>
+<td>expenditure</td>
+<td><input type="text" ng-model="employee.expenditure"</td>
+</tr>
+</table>
+<br/><br/>
+<table>
+<tr>
+<td>firstname</td>
+<td>{{employee.firstname | uppercase}}</td>
+</tr>
+<tr>
+<td>lastname</td>
+<td>{{employee.lastname}}
+</tr>
+<tr>
+<td>occupation</td>
+<td>{{employee.occupation}}</td>
+</tr>
+<tr>
+<td>expenditure</td>
+<td>{{employee.expenditure | currency}}</td>
+</tr>
+</table>
+
+</body>
+</html>

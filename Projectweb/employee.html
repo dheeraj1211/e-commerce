@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+	<script src="Script1.js"></script>
+		<link rel="stylesheet" type="text/css" href="StyleSheet2.css">
+
+    <title></title>
+</head>
+<body ng-app="myapp">
+<div ng-controller="ctrl">
+<input type="checkbox" ng-model="hidesalary">Hidesalary
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Sex</th>
+<th>city</th>
+<th>salary</th>
+</tr>
+</thead>
+<tbody>
+<tr ng-repeat="employee in employees">
+<td>{{employee.name}}</td>
+<td>{{employee.sex}}</td>
+<td>{{employee.city}}</td>
+
+<td ng-hide="hidesalary">{{employee.salary}}</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>
